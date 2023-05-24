@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactUs() {
   return (
-    <div className='w-full md:w-[90%] m-auto bg-[#FFFCF6] px-5 md:px-9 md:py-[3.5rem] text-main-color flex flex-col flex-wrap gap-[5rem] md:gap-0 md:flex-row md:relative md:bottom-56'>
+    <div className='w-full md:w-[90%] m-auto bg-[#FFFCF6] px-5 md:px-9 md:py-[3.5rem] text-main-color space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-0 md:relative md:bottom-56'>
       {/* left content start */}
       <div className='w-full'>
         <div className='flex flex-row pt-8 md:pt-0'>
@@ -121,14 +121,14 @@ function ContactUs() {
             type='checkbox'
             className='form-checkbox'
           />
-          <div className='text-left pl-3'>
+          <div className='text-left pl-3 text-xs w-full'>
             <label
               for='billing_same'
               className='ml-0 md:ml-2'
             >
               個人情報の取り扱いに同意します
               <br className='block md:hidden' />
-              <span className='text-secondary-color pl-5'>
+              <span className='text-secondary-color'>
                 | プライバシーポリシー
               </span>
             </label>
