@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactUs() {
   return (
-    <div className='w-full md:w-[90%] m-auto bg-[#FFFCF6] px-5 md:px-9 md:py-[3.5rem] text-main-color space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-0 md:relative md:bottom-56'>
+    <div className='relative w-full md:w-[90%] m-auto bg-[#FFFCF6] px-5 md:px-9 md:py-[3.5rem] text-main-color space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-0 md:bottom-[25rem] z-10'>
       {/* left content start */}
       <div className='w-full'>
         <div className='flex flex-row pt-8 md:pt-0'>

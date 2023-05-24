@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Blog() {
   return (
-    <>
+    <div className="">
       <div className='px-5 py-14 bg-main-color text-[#fff]'>
         <div className='flex flex-row md:pt-0'>
           <h1 className='tracking-[10px] font-thin text-sm uppercase'>
@@ -115,6 +115,6 @@ export default function Blog() {
         width={800}
         className='bg-no-repeat object-fill block md:hidden w-full'
       />
-    </>
+    </div>
   );
 }

@@ -29,9 +29,10 @@ export default function page() {
 
       <Blog/>
 
+      <Footer/>
+      
       <ContactUs/>
 
-      <Footer/>
     </>
   );
 }
