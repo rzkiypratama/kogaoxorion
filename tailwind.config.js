@@ -11,8 +11,19 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+          'overview-img': "url('/overview-img.jpg')",
+          'overview-img-2': "url('/overview-3.svg')",
+
       },
     },
+    fontFamily: {
+      'jap': ['Sawarabi Mincho'],
+    },
+    colors: {
+      'main-color': '#5A5E61',
+      'secondary-color': '#C6AD99',
+      'transparent': '#000'
+    }
   },
   plugins: [],
 }
