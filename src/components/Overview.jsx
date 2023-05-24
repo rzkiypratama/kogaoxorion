@@ -8,10 +8,10 @@ export default function overview() {
         {/* left content */}
         <div className='px-[2rem] py-[3rem] md:px-[7rem] md:py-[5rem] bg-[#FFFCF6]'>
           <div className='grid grid-cols-2'>
-            <h1 className='tracking-[10px] font-thin text-sm text-main-color w-[18rem]'>
+            <h1 className='tracking-[10px] font-thin text-md text-main-color w-[18rem]'>
               ABOUT KOGAO
             </h1>
-            <hr className='border-[#C6AD99]/90 w-[55%] sm:w-[125%] mt-2 ml-[5rem] md:ml-0' />
+            <hr className='border-[#C6AD99]/90 w-[55%] md:w-[125%] mt-2 ml-[5rem] md:ml-0' />
           </div>
 
           <p className='text-3xl text-main-color pt-8'>
@@ -62,8 +62,8 @@ export default function overview() {
         </div>
       </section>
 
-      <section className='flex flex-col-reverse sm:flex-row'>
-        <div className='w-full sm:w-[50%]'>
+      <section className='flex flex-col-reverse md:flex-row'>
+        <div className='w-full md:w-[50%]'>
           <div className='object-fill bg-no-repeat w-full'>
             <Image
               src='/overview-1.svg'
@@ -74,8 +74,8 @@ export default function overview() {
           </div>
         </div>
 
-        <div className='bg-main-color flex flex-col justify-center text-center w-full sm:w-[50%]'>
-          <div className='object-fill bg-no-repeat w-full p-6 sm:hidden'>
+        <div className='bg-main-color flex flex-col justify-center text-center w-full md:w-[50%]'>
+          <div className='object-fill bg-no-repeat w-full p-6 md:hidden'>
             <Image
               src='/overview-2.svg'
               alt='overview second image'
@@ -97,11 +97,11 @@ export default function overview() {
             120分 9,800円 (通常22,000円)
           </h3>
 
-          <div className='sm:grid sm:grid-cols-2'>
+          <div className='md:grid md:grid-cols-2'>
             <button className='my-10 mx-auto border border-[#FFF] transition-all py-4 w-[90%] text-[#fff] hover:bg-[#C6AD99] hover:text-[#333] hover:border-[#C6AD99]'>
               詳しくはコチラ
             </button>
-            <button className='hidden sm:block sm:my-10 sm:mx-auto sm:border sm:border-[#FFF] sm:transition-all sm:py-4 sm:w-[90%] sm:text-[#fff] sm:hover:bg-[#C6AD99] sm:hover:text-[#333] sm:hover:border-[#C6AD99]'>
+            <button className='hidden md:block md:my-10 md:mx-auto md:border md:border-[#FFF] md:transition-all md:py-4 md:w-[90%] md:text-[#fff] md:hover:bg-[#C6AD99] md:hover:text-[#333] md:hover:border-[#C6AD99]'>
               詳しくはコチラ
             </button>
           </div>
@@ -109,19 +109,19 @@ export default function overview() {
       </section>
 
       <section>
-        <div className='bg-[#787E82] w-full h-full sm:text-center text-[#fff]'>
+        <div className='bg-[#787E82] w-full h-full md:text-center text-[#fff]'>
           <img
             src='https://i.ibb.co/09djFKw/282021-2.png'
             alt='background overlay'
-            className='object-cover bg-no-repeat w-full h-[50%] sm:h-[117.4%] absolute mix-blend-overlay'
+            className='object-cover bg-no-repeat w-full h-full md:h-fit absolute mix-blend-overlay'
           />
 
           <div className='flex justify-center items-center p-7'>
-            <hr className='hidden sm:block border-[#C6AD99]/90 border-1 w-full my-5 mx-auto' />
-            <h1 className='tracking-[3px] sm:tracking-[10px] w-full text-sm'>
+            <hr className='hidden md:block border-[#C6AD99]/90 border-1 w-full my-5 mx-auto' />
+            <h1 className='tracking-[3px] md:tracking-[10px] w-full text-sm'>
               WHY CHOOSE KOGAO
             </h1>
-            <hr className='border-[#C6AD99]/90 border-1 w-[50%] sm:w-full my-5 mx-auto' />
+            <hr className='border-[#C6AD99]/90 border-1 w-[90%] md:w-full my-5 mx-auto' />
           </div>
 
           <h3 className='text-3xl pl-7'>
@@ -130,19 +130,19 @@ export default function overview() {
           <p className='text-2xl px-7 py-5'>
             大人女性を「お顔の悩みから救いたい」
           </p>
-          <p className='text-sm px-7 sm:pb-5'>
+          <p className='text-md px-7 md:pb-5'>
             これまで銀座・赤坂・青山・ニューヨークの地で
             <br />
             約15000人のお顔の悩みに寄り添い
             <br />
             期待を超えるリフトアップや小顔効果を提供してきました。
           </p>
-          <p className='text-xl sm:text-3xl px-7 py-5'>
+          <p className='text-xl md:text-3xl px-7 py-5'>
             小顔ドクターがお客様から支持される理由は
           </p>
 
-          <div className='grid grid-cols-1 space-y-10 sm:grid-cols-3 pt-2 mb-5 sm:mb-8'>
-            <div className='container text-left px-5 sm:px-[4.5rem] pt-10 md:h-fit'>
+          <div className='grid grid-cols-1 space-y-10 md:grid-cols-3 pt-2 mb-5 md:mb-8'>
+            <div className='container text-left px-5 md:px-[4.5rem] pt-10 md:h-fit'>
               <img
                 src='https://i.ibb.co/DrFb0B9/J6-A3314-1.png'
                 alt='container image'
@@ -169,14 +169,14 @@ export default function overview() {
               </article>
             </div>
 
-            <div className='container text-left px-5 sm:px-[4.5rem]'>
+            <div className='container text-left px-5 md:px-[4.5rem]'>
               <img
-                src='https://i.ibb.co/DrFb0B9/J6-A3314-1.png'
+                src='https://i.ibb.co/rcBMDvN/323512-1.png'
                 alt='container image'
                 width={720}
               />
               <img
-                src='https://i.ibb.co/9YMqSDw/image.png'
+                src='https://i.ibb.co/jhBMtkb/image.png'
                 alt='number'
                 width={20}
                 className='pt-6'
@@ -196,14 +196,14 @@ export default function overview() {
               </article>
             </div>
 
-            <div className='container text-left px-5 sm:px-[4.5rem]'>
+            <div className='container text-left px-5 md:px-[4.5rem]'>
               <img
-                src='https://i.ibb.co/DrFb0B9/J6-A3314-1.png'
+                src='https://i.ibb.co/0fysScM/291787-2.png'
                 alt='container image'
                 width={720}
               />
               <img
-                src='https://i.ibb.co/9YMqSDw/image.png'
+                src='https://i.ibb.co/hWLvtFW/image.png'
                 alt='number'
                 width={20}
                 className='pt-6'
@@ -225,16 +225,16 @@ export default function overview() {
 
           </div>
 
-          <section className='bg-main-color text-center sm:text-left px-8 md:px-24 py-4 sm:py-5 mx-auto sm:flex sm:justify-evenly'>
-            <div className='sm:w-full sm:my-3 pt-8 text-[#FFF]'>
-            <h1 className='text-xs sm:text-sm font-thin tracking-[10px] pl-4 sm:pl-0'>
+          <section className='bg-main-color text-center md:text-left px-8 md:px-24 py-4 md:py-8 md:flex md:justify-evenly'>
+            <div className='md:w-full md:my-3 pt-8 text-[#FFF]'>
+            <h1 className='text-xs md:text-md font-thin tracking-[10px] pl-4 md:pl-0'>
               BOOK YOUR VISIT
             </h1>
             <p className='text-3xl pt-5'>
               予約フォームまたは LINEからどうぞ
             </p>
             </div>
-            <button className='my-12 border border-[#FFF] transition-all py-4 sm:w-[20%] w-full text-[#fff] hover:bg-[#C6AD99] hover:text-[#333] hover:border-[#C6AD99]'>
+            <button className='my-12 border border-[#FFF] transition-all py-4 md:w-[20%] w-full text-[#fff] hover:bg-[#C6AD99] hover:text-[#333] hover:border-[#C6AD99]'>
               ご予約
             </button>
           </section>
