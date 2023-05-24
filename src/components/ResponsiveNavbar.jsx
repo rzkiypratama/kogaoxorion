@@ -7,11 +7,11 @@ export default function FullScreenNav() {
 
   return (
     <nav className='md:hidden w-full bg-[#FFF] shadow'>
-      <div className='justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8'>
+      <div className='items-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8'>
         <div>
           <div className='flex flex-row-reverse items-center justify-between py-3 md:py-5 md:block'>
             <a href='javascript:void(0)'>
-              <div className="pr-[5.2rem] py-5">
+              <div className="py-5 px-20">
               <Image
                 src='/kogao.svg'
                 alt='Kogao Logo'
