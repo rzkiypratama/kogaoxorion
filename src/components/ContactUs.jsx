@@ -47,7 +47,7 @@ function ContactUs() {
           </span>
         </label>
         <input
-          placeholder='初回コース　(9,800円 税込)'
+          placeholder='初回コース (9,800円 税込)'
           className='contactInput'
           type='text'
         />

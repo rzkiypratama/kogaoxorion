@@ -67,29 +67,29 @@ export default function ClinicInfo() {
           赤坂駅B5出口 徒歩約5分
         </p>
 
-        <img src="https://i.ibb.co/MVrKVNb/Group-132.png" alt="video thumbnail"
+        <img src='https://i.ibb.co/MVrKVNb/Group-132.png' alt='video thumbnail'
         height={30}
         width={300}
-        className="pt-5 w-full md:w-fit pb-4"
+        className='pt-5 w-full md:w-fit pb-4'
         />
       </div>
 
       <div className='w-full md:w-[35%]'>
-        <div className="flex justify-center">
-          <img src="https://i.ibb.co/wB3JXqx/Rectangle-31-1.png" alt="white background"
+        <div className='flex justify-center'>
+          <img src='https://i.ibb.co/wB3JXqx/Rectangle-31-1.png' alt='white background'
           height={100}
           width={200}
-          className="object-fill bg-no-repeat md:h-fit md:invisible"
+          className='object-fill bg-no-repeat md:h-fit md:invisible'
           />
-          <img src="https://i.ibb.co/8c2rQpJ/J6-A3330-A-1-1.png" alt="clinic image"
+          <img src='https://i.ibb.co/8c2rQpJ/J6-A3330-A-1-1.png' alt='clinic image'
           height={100}
           width={200}
-          className="object-cover bg-no-repeat overflow-hidden md:overflow-visible h-[31rem] md:h-full md:w-fit w-full"
+          className='object-cover bg-no-repeat overflow-hidden md:overflow-visible h-[31rem] md:h-full md:w-fit w-full'
           />
-          <img src="https://i.ibb.co/q0J3Fph/7-C7-A0415-1.png" alt="clinic image"
+          <img src='https://i.ibb.co/q0J3Fph/7-C7-A0415-1.png' alt='clinic image'
           height={100}
           width={200}
-          className="object-cover bg-no-repeat absolute w-full md:w-fit py-5 px-5 md:h-[39rem] md:pt-24"
+          className='object-cover bg-no-repeat absolute w-full md:w-fit py-5 px-5 md:h-[39rem] md:pt-24'
           />
         </div>
       </div>

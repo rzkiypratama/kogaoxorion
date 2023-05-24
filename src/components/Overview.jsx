@@ -1,5 +1,5 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image';
+import React from 'react';
 
 export default function overview() {
   return (
@@ -21,7 +21,7 @@ export default function overview() {
           </p>
 
           <p className='pt-8 pb-8 text-main-color'>
-            "たるみ"はこの瞬間も刻々と進行中・・・
+            &quot;たるみ&quot;はこの瞬間も刻々と進行中・・・
             <br />
             鏡や写真を見る度に心を悩ますたるみ・ほうれい線。
           </p>
@@ -226,11 +226,11 @@ export default function overview() {
           </div>
 
           <section className='bg-main-color text-center sm:text-left px-8 md:px-24 py-4 sm:py-5 mx-auto sm:flex sm:justify-evenly'>
-            <div className="sm:w-full sm:my-3 pt-8 text-[#FFF]">
+            <div className='sm:w-full sm:my-3 pt-8 text-[#FFF]'>
             <h1 className='text-xs sm:text-sm font-thin tracking-[10px] pl-4 sm:pl-0'>
               BOOK YOUR VISIT
             </h1>
-            <p className="text-3xl pt-5">
+            <p className='text-3xl pt-5'>
               予約フォームまたは LINEからどうぞ
             </p>
             </div>
