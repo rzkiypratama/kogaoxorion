@@ -75,11 +75,11 @@ export default function overview() {
         </div>
 
         <div className='bg-main-color flex flex-col justify-center text-center w-full sm:w-[50%]'>
-          <div className='object-fill bg-no-repeat w-full p-6 lg:p-0 sm:hidden'>
+          <div className='object-fill bg-no-repeat w-full p-6 sm:hidden'>
             <Image
               src='/overview-2.svg'
               alt='overview second image'
-              width={920}
+              width={720}
               height={300}
             />
           </div>
