@@ -1,5 +1,5 @@
 import FullScreenNav from "@/components/ResponsiveNavbar";
-import Header from "@/components/Header";
+import Header from "@/components/Navbar";
 import Hero from "@/components/Banner";
 import Media from "@/components/Media";
 import Overview from "@/components/Overview";

@@ -11,7 +11,7 @@ export default function FullScreenNav() {
         <div>
           <div className='flex flex-row-reverse items-center justify-between py-3 md:py-5 md:block'>
             <a href='javascript:void(0)'>
-              <div className="py-5 px-20">
+              <div className="py-5 px-2 pr-[5.2rem]">
               <Image
                 src='/kogao.svg'
                 alt='Kogao Logo'
