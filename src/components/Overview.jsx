@@ -116,9 +116,9 @@ export default function overview() {
             className='object-cover bg-no-repeat w-full h-full md:h-fit absolute mix-blend-overlay'
           />
 
-          <div className='flex justify-center items-center p-7'>
+          <div className='flex justify-center items-center py-7 px-5 max-w-full'>
             <hr className='hidden md:block border-[#C6AD99]/90 border-1 w-full my-5 mx-auto' />
-            <h1 className='tracking-[3px] md:tracking-[10px] w-full text-sm'>
+            <h1 className='tracking-[3px] md:tracking-[10px] w-full text-xs md:text-sm'>
               WHY CHOOSE KOGAO
             </h1>
             <hr className='border-[#C6AD99]/90 border-1 w-[90%] md:w-full my-5 mx-auto' />
