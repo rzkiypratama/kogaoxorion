@@ -142,7 +142,7 @@ export default function overview() {
           </p>
 
           <div className='grid grid-cols-1 space-y-10 sm:grid-cols-3 pt-2 mb-5 sm:mb-8'>
-            <div className='container text-left px-5 sm:px-[4.5rem] pt-10'>
+            <div className='container text-left px-5 sm:px-[4.5rem] pt-10 md:h-fit'>
               <img
                 src='https://i.ibb.co/DrFb0B9/J6-A3314-1.png'
                 alt='container image'
