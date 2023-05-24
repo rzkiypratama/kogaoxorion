@@ -9,6 +9,7 @@ import ClinicInfo from "@/components/ClinicInfo";
 import Blog from "@/components/Blog";
 import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
+import FooterResponsive from "@/components/FooterResponsive";
 
 export default function page() {
   return (
@@ -25,14 +26,15 @@ export default function page() {
 
       <Media />
 
-      <ClinicInfo/>
+      <ClinicInfo />
 
-      <Blog/>
+      <Blog />
 
-      <Footer/>
-      
-      <ContactUs/>
+      <Footer />
 
+      <ContactUs />
+
+      <FooterResponsive />
     </>
   );
 }

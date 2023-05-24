@@ -17,4 +17,7 @@
   .contactInput {
     @apply outline-none bg-transparent/0 rounded-sm border-b px-0 py-1.5 border-secondary-color text-main-color transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40 hover:border-[#f7ab0a]/40;
   }
+  .footerList li {
+    @apply cursor-pointer hover:text-main-color transition-all 
+  }
 }
