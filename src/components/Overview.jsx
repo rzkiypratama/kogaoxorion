@@ -52,11 +52,11 @@ export default function overview() {
         </div>
 
         {/* right content */}
-        <div className='object-cover bg-no-repeat w-full'>
+        <div className='object-fit bg-no-repeat overflow-hidden w-full lg:w-full lg:h-fit'>
           <Image
             src='/overview-img.jpg'
             alt='overview main image'
-            width={800}
+            width={980}
             height={300}
           />
         </div>
@@ -75,11 +75,11 @@ export default function overview() {
         </div>
 
         <div className='bg-main-color flex flex-col justify-center text-center w-full sm:w-[50%]'>
-          <div className='object-fill bg-no-repeat w-full p-6 sm:hidden'>
+          <div className='object-fill bg-no-repeat w-full p-6 lg:p-0 sm:hidden'>
             <Image
               src='/overview-2.svg'
               alt='overview second image'
-              width={720}
+              width={920}
               height={300}
             />
           </div>

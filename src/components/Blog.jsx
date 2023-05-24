@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Blog() {
   return (
-    <div className="">
+    <div>
       <div className='px-5 py-14 bg-main-color text-[#fff]'>
         <div className='flex flex-row md:pt-0'>
           <h1 className='tracking-[10px] font-thin text-sm uppercase'>
@@ -63,7 +63,7 @@ export default function Blog() {
         />
       </div>
 
-      <div className='text-center text-main-color'>
+      <div className='text-center text-main-color items-center w-full'>
         <div className='flex justify-center items-center pt-7 px-7'>
           <hr className='border-[#C6AD99]/90 border-1 w-full my-5 mx-auto' />
           <h1 className='tracking-[7px] px-4 sm:tracking-[10px] w-full text-sm uppercase'>
@@ -73,7 +73,7 @@ export default function Blog() {
         </div>
         <p className='text-3xl pb-4'>インスタ</p>
 
-        <div className='flex overflow-x-auto'>
+        <div className='flex justify-center w-full overflow-x-auto m-auto'>
           <img
             src='https://i.ibb.co/9N5dW2S/image-13.png'
             alt='instagram kogao'

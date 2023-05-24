@@ -1,6 +1,6 @@
 import FullScreenNav from "@/components/ResponsiveNavbar";
 import Header from "@/components/Navbar";
-import Hero from "@/components/Banner";
+import Banner from "@/components/Banner";
 import Media from "@/components/Media";
 import Overview from "@/components/Overview";
 import Testimonial from "@/components/Testimonial";
@@ -18,7 +18,7 @@ export default function page() {
 
       <Header />
 
-      <Hero />
+      <Banner />
 
       <Overview />
 

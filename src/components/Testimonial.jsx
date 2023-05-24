@@ -2,14 +2,14 @@ import React from "react";
 
 export default function testimonial() {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2'>
+    <div className='grid grid-cols-1 md:grid-cols-2'>
       {/* right content */}
       <div>
-        <div className='bg-[#F8F4ED] h-[100%]'>
+        <div className='bg-[#F8F4ED] h-[100%] md:max-h-fit'>
           <img
             src='https://i.ibb.co/L0nHvfH/Fotor-160277902060167-1.png'
             alt='testimonial background'
-            className='absolute sm:w-[39.3%]'
+            className='absolute md:max-w-fit md:h-fit'
           />
 
           <div className='relative w-fit h-fit bg-[#FFF] px-2 m-auto top-10 sm:left-[12rem]'>
@@ -35,7 +35,7 @@ export default function testimonial() {
         </div>
       </div>
       {/* content right */}
-      <div className='bg-[#FFFCF6] px-[1rem] sm:px-[5rem] pt-24 sm:pt-10'>
+      <div className='bg-[#FFFCF6] px-[1rem] sm:px-[5rem] pt-24 sm:pt-10 lg:h-[47rem]'>
         <div className='grid grid-cols-2'>
           <h1 className='tracking-[10px] font-thin text-sm text-main-color uppercase'>
             testimonial
