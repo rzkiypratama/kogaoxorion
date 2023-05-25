@@ -150,13 +150,9 @@ export default function overview() {
                   y: 100,
                   opacity: 0,
                 }}
-                animate={{
-                  y: 0,
-                  opacity: 1,
-                }}
-                transition={{
-                  duration: 0.8,
-                }}
+                transition={{ duration: 0.7 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 src='https://i.ibb.co/DrFb0B9/J6-A3314-1.png'
                 alt='container image'
                 width={720}
@@ -184,17 +180,13 @@ export default function overview() {
 
             <div className='container text-left px-5 md:px-[4.5rem]'>
               <motion.img
-                initial={{
-                  y: 100,
-                  opacity: 0,
-                }}
-                animate={{
-                  y: 0,
-                  opacity: 1,
-                }}
-                transition={{
-                  duration: 0.8,
-                }}
+              initial={{
+                y: 100,
+                opacity: 0,
+              }}
+              transition={{ duration: 0.7 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
                 src='https://i.ibb.co/rcBMDvN/323512-1.png'
                 alt='container image'
                 width={720}
@@ -226,13 +218,9 @@ export default function overview() {
                   y: 100,
                   opacity: 0,
                 }}
-                animate={{
-                  y: 0,
-                  opacity: 1,
-                }}
-                transition={{
-                  duration: 0.8,
-                }}
+                transition={{ duration: 0.7 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
                 src='https://i.ibb.co/0fysScM/291787-2.png'
                 alt='container image'
                 width={720}
