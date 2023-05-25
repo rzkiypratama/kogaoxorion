@@ -1,5 +1,7 @@
-import Image from 'next/image';
-import React from 'react';
+"use client";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import React from "react";
 
 export default function overview() {
   return (
@@ -143,7 +145,18 @@ export default function overview() {
 
           <div className='grid grid-cols-1 space-y-10 md:grid-cols-3 pt-2 mb-5 md:mb-8'>
             <div className='container text-left px-5 md:px-[4.5rem] pt-10 md:h-fit'>
-              <img
+              <motion.img
+                initial={{
+                  y: 100,
+                  opacity: 0,
+                }}
+                animate={{
+                  y: 0,
+                  opacity: 1,
+                }}
+                transition={{
+                  duration: 0.8,
+                }}
                 src='https://i.ibb.co/DrFb0B9/J6-A3314-1.png'
                 alt='container image'
                 width={720}
@@ -170,7 +183,18 @@ export default function overview() {
             </div>
 
             <div className='container text-left px-5 md:px-[4.5rem]'>
-              <img
+              <motion.img
+                initial={{
+                  y: 100,
+                  opacity: 0,
+                }}
+                animate={{
+                  y: 0,
+                  opacity: 1,
+                }}
+                transition={{
+                  duration: 0.8,
+                }}
                 src='https://i.ibb.co/rcBMDvN/323512-1.png'
                 alt='container image'
                 width={720}
@@ -197,7 +221,18 @@ export default function overview() {
             </div>
 
             <div className='container text-left px-5 md:px-[4.5rem]'>
-              <img
+              <motion.img
+                initial={{
+                  y: 100,
+                  opacity: 0,
+                }}
+                animate={{
+                  y: 0,
+                  opacity: 1,
+                }}
+                transition={{
+                  duration: 0.8,
+                }}
                 src='https://i.ibb.co/0fysScM/291787-2.png'
                 alt='container image'
                 width={720}
@@ -222,17 +257,16 @@ export default function overview() {
                 非常に高い効果を生み出します。
               </article>
             </div>
-
           </div>
 
           <section className='bg-main-color text-center md:text-left px-8 md:px-24 py-4 md:py-8 md:flex md:justify-evenly'>
             <div className='md:w-full md:my-3 pt-8 text-[#FFF]'>
-            <h1 className='text-xs md:text-md font-thin tracking-[10px] pl-4 md:pl-0'>
-              BOOK YOUR VISIT
-            </h1>
-            <p className='text-3xl pt-5'>
-              予約フォームまたは LINEからどうぞ
-            </p>
+              <h1 className='text-xs md:text-md font-thin tracking-[10px] pl-4 md:pl-0'>
+                BOOK YOUR VISIT
+              </h1>
+              <p className='text-3xl pt-5'>
+                予約フォームまたは LINEからどうぞ
+              </p>
             </div>
             <button className='my-12 border border-[#FFF] transition-all py-4 md:w-[20%] w-full text-[#fff] hover:bg-[#C6AD99] hover:text-[#333] hover:border-[#C6AD99]'>
               ご予約
