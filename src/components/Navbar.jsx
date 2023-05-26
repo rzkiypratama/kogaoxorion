@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 Image;
 
-export default function header() {
+export default function Header() {
   const [navbar, setNavbar] = useState(false);
 
   return (
