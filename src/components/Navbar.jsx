@@ -53,7 +53,7 @@ export default function header() {
       {/* navbar dekstop end */}
 
       {/* navbar mobile start */}
-      <nav className='md:hidden w-full bg-[#FFF] shadow'>
+      <nav className='md:hidden w-full bg-[#FFF] shadow z-10'>
         <div className='items-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8'>
           <div>
             <div className='flex flex-row-reverse items-center justify-between py-3 md:py-5 md:block'>
@@ -70,7 +70,7 @@ export default function header() {
               </a>
               <div className='md:hidden'>
                 <button
-                  className='p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border float-left'
+                  className='p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border float-left transition-all ease-out'
                   onClick={() =>
                     setNavbar(!navbar)
                   }
@@ -110,38 +110,45 @@ export default function header() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 h-screen transition-all ease-out text-center justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className='items-center text-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0'>
-                <li className='text-gray-600 hover:text-blue-600'>
+              <ul className='items-center text-center justify-center space-y-10 md:flex md:space-x-6 md:space-y-0'>
+                <li className='mobileList'>
                   <a href='#'>ホーム</a>
                 </li>
-                <li className='text-gray-600 hover:text-blue-600'>
+                <li className='mobileList'>
                   <a href='#'>初めての方へ</a>
                 </li>
-                <li className='text-gray-600 hover:text-blue-600'>
+                <li className='mobileList'>
                   <a href='#'>サロンのご紹介</a>
                 </li>
-                <li className='text-gray-600 hover:text-blue-600'>
+                <li className='mobileList'>
                   <a href='#'>メニュー・料金</a>
                 </li>
-                <li className='text-gray-600 hover:text-blue-600'>
+                <li className='mobileList'>
                   <a href='#'>お客様の声</a>
                 </li>
-                <li className='text-gray-600 hover:text-blue-600'>
+                <li className='mobileList'>
                   <a href='#'>
                     小顔ドクタースクール
                   </a>
                 </li>
-                <li className='text-gray-600 hover:text-blue-600'>
+                <li className='mobileList'>
                   <a href='#'>よくあるご質問</a>
                 </li>
-                <li className='text-gray-600 hover:text-blue-600'>
+                <li className='mobileList'>
                   <a href='#'>ブロッゴ</a>
                 </li>
               </ul>
+              <p className='text-secondary-color pt-40'>
+                キャンセルポリシー |
+                プライバシーポリシー
+              </p>
+              <p className='text-secondary-color'>
+                © KOGAO DOCTOR 2021
+              </p>
             </div>
           </div>
         </div>

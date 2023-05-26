@@ -1,23 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
 
 @layer components {
   * {
-    @apply font-jap
+    @apply font-jap;
   }
   .heroButton {
     @apply px-2 md:px-10 md:py-5 py-2 uppercase text-sm tracking-wide text-[#C6AD99] transition-all hover:border-[#f7abba]/40 hover:text-[#f7abba]/40 cursor-pointer;
   }
   .contactUsButton {
-    @apply border border-secondary-color transition-all py-4 tracking-[7px] md:w-[40%] w-full text-main-color text-xs hover:bg-[#C6AD99] hover:text-[#333] hover:border-[#C6AD99]
+    @apply border border-secondary-color transition-all py-4 tracking-[7px] md:w-[40%] w-full text-main-color text-xs hover:bg-[#C6AD99] hover:text-[#333] hover:border-[#C6AD99];
   }
   .contactInput {
     @apply outline-none bg-transparent/0 rounded-sm border-b px-0 py-1.5 border-secondary-color text-main-color transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40 hover:border-[#f7ab0a]/40;
   }
   .footerList li {
-    @apply cursor-pointer hover:text-main-color transition-all 
+    @apply cursor-pointer hover:text-main-color transition-all;
+  }
+  .mobileList {
+    @apply text-main-color hover:text-[#000]
   }
 }
