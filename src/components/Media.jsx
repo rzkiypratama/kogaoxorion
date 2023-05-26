@@ -2,7 +2,7 @@ import React from "react";
 
 export default function media() {
   return (
-    <div className='bg-[#F8F4ED] text-center'>
+    <div className='bg-[#F8F4ED] text-center text-main-color'>
       <div className='flex justify-center items-center p-7 '>
         <hr className='border-[#C6AD99]/90 border-1 w-full my-5 mx-auto' />
         <h1 className='tracking-[3px] sm:tracking-[10px] w-full text-sm uppercase'>

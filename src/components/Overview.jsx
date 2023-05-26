@@ -27,8 +27,6 @@ export default function overview() {
             <br />
             鏡や写真を見る度に心を悩ますたるみ・ほうれい線。
           </p>
-          {/* <p className="absolute float-left text-[14rem] text-[#F5F1E8] z-10">“</p> */}
-
           <div className='border-l border-l-secondary-color ml-4 z-40'>
             <p className='text-xl text-main-color pl-6'>
               小顔ドクターでは人体学に基づいた施術で
@@ -53,8 +51,7 @@ export default function overview() {
           </div>
         </div>
 
-        {/* right content */}
-        <div className='object-fit bg-no-repeat overflow-hidden w-full lg:w-full lg:h-fit'>
+        <div className='object-fill bg-no-repeat overflow-hidden w-full lg:w-full lg:h-fit'>
           <img
             src='/assets/overview-img.jpg'
             alt='overview first image'
@@ -64,6 +61,7 @@ export default function overview() {
         </div>
       </section>
 
+      {/* right content */}
       <section className='flex flex-col-reverse md:flex-row'>
         <div className='w-full md:w-[50%]'>
           <div className='object-fill bg-no-repeat w-full'>
@@ -150,7 +148,7 @@ export default function overview() {
                   y: 100,
                   opacity: 0,
                 }}
-                transition={{ duration: 0.7 }}
+                transition={{ duration: 1 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 src='/assets/img-1.png'
@@ -184,7 +182,7 @@ export default function overview() {
                   y: 100,
                   opacity: 0,
                 }}
-                transition={{ duration: 0.7 }}
+                transition={{ duration: 1 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 src='/assets/img-2.png'

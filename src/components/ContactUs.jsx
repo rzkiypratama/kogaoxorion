@@ -67,7 +67,7 @@ function ContactUs() {
           <input
             type='time'
             className='contactInput w-full md:w-[48%]'
-            placeholder='10時30分〜 '
+            placeholder='10時30分〜'
           />
         </div>
 
