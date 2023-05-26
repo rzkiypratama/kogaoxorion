@@ -35,3 +35,10 @@ export default function page() {
     </div>
   );
 }
+
+export async function getStaticProps() {
+  return {
+    props: {},
+    revalidate: 3600 // interval reload page in seccc
+  };
+}
