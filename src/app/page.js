@@ -1,5 +1,4 @@
-import FullScreenNav from "@/components/ResponsiveNavbar";
-import Header from "@/components/Navbar";
+import Navbar from "@/components/Navbar";
 import Banner from "@/components/Banner";
 import Media from "@/components/Media";
 import Overview from "@/components/Overview";
@@ -13,10 +12,8 @@ import FooterResponsive from "@/components/FooterResponsive";
 
 export default function page() {
   return (
-    <>
-      <FullScreenNav />
-
-      <Header />
+    <div>
+      <Navbar />
 
       <Banner />
 
@@ -35,6 +32,6 @@ export default function page() {
       <ContactUs />
 
       <FooterResponsive />
-    </>
+    </div>
   );
 }
