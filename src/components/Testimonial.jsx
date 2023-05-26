@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import React from "react";
 
 export default function testimonial() {
@@ -12,7 +14,16 @@ export default function testimonial() {
             className='absolute md:max-w-fit md:h-fit'
           />
 
-          <div className='relative w-fit h-fit bg-[#FFF] px-2 m-auto top-10 sm:left-[12rem]'>
+          <motion.div
+            initial={{
+              x: -100,
+              opacity: 0,
+            }}
+            transition={{ duration: 0.7 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className='relative w-fit h-fit bg-[#FFF] px-2 m-auto top-10 sm:left-[12rem]'
+          >
             <h1 className='text-2xl font-thin pt-6 text-main-color'>
               え。。。！？たった１回で！
             </h1>
@@ -27,11 +38,11 @@ export default function testimonial() {
               <p>痛くない</p>
             </div>
             <img
-              src='https://i.ibb.co/jWLG4Vw/testimonial-image.png'
+              src='/assets/testimonial-image.png'
               alt='testimonial image'
               className='pb-1'
             />
-          </div>
+          </motion.div>
         </div>
       </div>
       {/* content right */}

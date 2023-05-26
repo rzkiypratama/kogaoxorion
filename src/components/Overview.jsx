@@ -56,7 +56,7 @@ export default function overview() {
         {/* right content */}
         <div className='object-fit bg-no-repeat overflow-hidden w-full lg:w-full lg:h-fit'>
           <img
-            src='/overview-img.jpg'
+            src='/assets/overview-img.jpg'
             alt='overview first image'
             width='100%'
             height={300}
@@ -68,7 +68,7 @@ export default function overview() {
         <div className='w-full md:w-[50%]'>
           <div className='object-fill bg-no-repeat w-full'>
             <img
-              src='/overview-1.svg'
+              src='/assets/overview-1.svg'
               alt='overview second image'
               width='100%'
               height={300}
@@ -153,7 +153,7 @@ export default function overview() {
                 transition={{ duration: 0.7 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                src='/img-1.png'
+                src='/assets/img-1.png'
                 alt='container image'
                 width={720}
               />
@@ -187,7 +187,7 @@ export default function overview() {
                 transition={{ duration: 0.7 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                src='/img-2.png'
+                src='/assets/img-2.png'
                 alt='container image'
                 width={720}
               />
@@ -221,7 +221,7 @@ export default function overview() {
                 transition={{ duration: 0.7 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                src='/img-3.png'
+                src='/assets/img-3.png'
                 alt='container image'
                 width={720}
               />

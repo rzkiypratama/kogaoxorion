@@ -1,7 +1,7 @@
 "use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import React, { useState } from "react";
-Image;
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -12,7 +12,7 @@ export default function Header() {
       <nav className='hidden md:block bg-[#E0E2E0]'>
         <div className='flex justify-between py-5 px-0 md:px-[7rem] m-auto'>
           <Image
-            src='/kogao.svg'
+            src='/assets/kogao.svg'
             alt='Kogao Logo'
             className='dark:invert'
             width={180}
@@ -60,7 +60,7 @@ export default function Header() {
               <a href='#'>
                 <div className='py-5 px-2 pr-[5.2rem]'>
                   <Image
-                    src='/kogao.svg'
+                    src='/assets/kogao.svg'
                     alt='Kogao Logo'
                     className='dark:invert'
                     width={200}

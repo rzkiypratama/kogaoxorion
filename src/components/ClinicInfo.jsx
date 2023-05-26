@@ -1,8 +1,11 @@
+"use client";
+import { motion } from "framer-motion";
 import React from "react";
 
 export default function ClinicInfo() {
   return (
     <div className='flex flex-col-reverse md:flex-row p-0 sm:px-24 '>
+      {/* left content */}
       <div className='w-full px-5 md:py-[3.5rem] md:w-[65%]'>
         <div className='flex flex-row pt-8 md:pt-0'>
           <h1 className='tracking-[10px] font-thin text-sm text-main-color uppercase'>
@@ -67,29 +70,45 @@ export default function ClinicInfo() {
           赤坂駅B5出口 徒歩約5分
         </p>
 
-        <img src='https://i.ibb.co/MVrKVNb/Group-132.png' alt='video thumbnail'
-        height={30}
-        width={300}
-        className='pt-5 w-full md:w-fit pb-4'
+        <img
+          src='https://i.ibb.co/MVrKVNb/Group-132.png'
+          alt='video thumbnail'
+          height={30}
+          width={300}
+          className='pt-5 w-full md:w-fit pb-4'
         />
       </div>
 
+      {/* right content */}
       <div className='w-full md:w-[35%]'>
         <div className='flex justify-center'>
-          <img src='https://i.ibb.co/wB3JXqx/Rectangle-31-1.png' alt='white background'
-          height={100}
-          width={200}
-          className='object-fill bg-no-repeat md:h-fit md:invisible'
+          <img
+            src='https://i.ibb.co/wB3JXqx/Rectangle-31-1.png'
+            alt='white background'
+            height={100}
+            width={200}
+            className='object-fill bg-no-repeat md:h-fit md:invisible'
           />
-          <img src='https://i.ibb.co/8c2rQpJ/J6-A3330-A-1-1.png' alt='clinic image'
-          height={100}
-          width={200}
-          className='object-cover bg-no-repeat overflow-hidden md:overflow-visible h-[31rem] md:h-full md:w-fit w-full'
+          <img
+            src='https://i.ibb.co/8c2rQpJ/J6-A3330-A-1-1.png'
+            alt='clinic image'
+            height={100}
+            width={200}
+            className='object-cover bg-no-repeat overflow-hidden md:overflow-visible h-[31rem] md:h-full md:w-fit w-full'
           />
-          <img src='https://i.ibb.co/q0J3Fph/7-C7-A0415-1.png' alt='clinic image'
-          height={100}
-          width={200}
-          className='object-cover bg-no-repeat absolute w-full md:w-fit py-5 px-5 md:h-[39rem] md:pt-24'
+          <motion.img
+            initial={{
+              x: -100,
+              opacity: 0,
+            }}
+            transition={{ duration: 0.7 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            src='/assets/clinic-img.png'
+            alt='clinic image'
+            height={100}
+            width={200}
+            className='object-cover bg-no-repeat absolute w-full md:w-fit py-5 px-5 md:h-[39rem] md:pt-24'
           />
         </div>
       </div>

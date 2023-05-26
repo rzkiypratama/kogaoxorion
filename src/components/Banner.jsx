@@ -1,3 +1,5 @@
+'use client'
+import { motion } from "framer-motion";
 import React from "react";
 
 export default function hero() {
@@ -103,8 +105,15 @@ export default function hero() {
 
       {/* right content */}
       <div className='relative right-20 md:right-0 object-cover h-fit w-[33rem] pt-10'>
-        <img
-          src='/bg-hero.png'
+        <motion.img
+        initial={{
+          x: 100,
+          opacity: 0,
+        }}
+        transition={{ duration: 0.7 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+          src='/assets/bg-hero.png'
           alt='hero background'
           width={800}
           height={80}
