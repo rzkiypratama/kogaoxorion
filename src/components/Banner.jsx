@@ -1,4 +1,3 @@
-import MobileTitle from './ResponsiveHeader'
 import React from "react";
 
 export default function hero() {
@@ -6,20 +5,89 @@ export default function hero() {
     <div className='grid grid-cols-2 bg-[#E0E2E0] overflow-hidden'>
       {/* left content start */}
       <div className='m-0 h-[10rem] md:h-fit md:m-auto'>
+        {/* head wording dekstop start */}
         <div className='hidden md:block'>
-
-          {/* heading dekstop */}
           <h1 className='text-3xl leading-[3rem] text-[#5D6163]'>
-            大人女性のための 
+            大人女性のための
             <br />
             たるみ改善小顔サロン
             <br />
             「重力を忘れたような引き上がり」
           </h1>
         </div>
+        {/* head wording dekstop end */}
 
-        {/* heading mobile */}
-        <MobileTitle/>
+        {/* head wording mobile start */}
+        <div className='md:hidden'>
+          <h1 className='text-3xl leading-[2.4rem] text-[#5D6163] flex pt-10 pl-10 tracking-[15px]'>
+            <br />
+            重
+            <br />
+            力
+            <br />
+            を
+            <br />
+            忘
+            <br />
+            れ
+            <br />
+            た
+            <br />
+            よ
+            <br />
+            う
+            <br />
+            な
+            <br />
+            引
+            <br />
+            き
+            <br />
+            上
+            <br />
+            が
+            <br />
+            り
+            <br />
+            <p>
+              た
+              <br />
+              る
+              <br />
+              み
+              <br />
+              改
+              <br />
+              善
+              <br />
+              小
+              <br />
+              顔
+              <br />
+              サ
+              <br />
+              ロ
+              <br />ン
+            </p>
+            <p>
+              大
+              <br />
+              人
+              <br />
+              女
+              <br />
+              性
+              <br />
+              の
+              <br />
+              た
+              <br />
+              め
+              <br />の
+            </p>
+          </h1>
+        </div>
+        {/* head wording mobile end */}
 
         <div className='flex flex-col space-y-7 w-[12rem] pt-10 invisible md:visible'>
           <hr className='border border-[#C6AD99] w-[50%]' />
