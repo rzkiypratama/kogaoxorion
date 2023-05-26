@@ -2,7 +2,7 @@ import React from 'react'
 
 function FooterResponsive() {
   return (
-    <footer className='flex flex-col items-center align-middle  md:hidden bg-[#434748] py-10 px-8 space-y-5'>
+    <footer className='flex flex-col items-center align-middle md:hidden bg-[#434748] py-10 px-8 space-y-5'>
     <img
       src='https://i.ibb.co/ScmK3y9/Frame.png'
       alt='footer logo'
