@@ -79,7 +79,7 @@ export default function overview() {
         <div className='bg-main-color flex flex-col justify-center text-center w-full md:w-[50%]'>
           <div className='object-fill bg-no-repeat w-full p-6 md:hidden'>
             <Image
-              src='/overview-2.svg'
+              src='/assets/overview-2.svg'
               alt='overview second image'
               width={720}
               height={300}
