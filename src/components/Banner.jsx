@@ -102,9 +102,9 @@ export default function hero() {
       {/* left content end */}
 
       {/* right content */}
-      <div className='relative right-24 md:right-0 object-cover h-fit w-[33rem] pt-10'>
+      <div className='relative right-20 md:right-0 object-cover h-fit w-[33rem] pt-10'>
         <img
-          src='https://i.ibb.co/CPNqDgD/hero-bg.png'
+          src='/bg-hero.png'
           alt='hero background'
           width={800}
           height={80}
