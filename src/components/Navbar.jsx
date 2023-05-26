@@ -142,13 +142,6 @@ export default function Header() {
                   <a href='#'>ブロッゴ</a>
                 </li>
               </ul>
-              <p className='text-secondary-color pt-40'>
-                キャンセルポリシー |
-                プライバシーポリシー
-              </p>
-              <p className='text-secondary-color'>
-                © KOGAO DOCTOR 2021
-              </p>
             </div>
           </div>
         </div>
