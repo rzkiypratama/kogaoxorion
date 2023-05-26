@@ -55,10 +55,10 @@ export default function overview() {
 
         {/* right content */}
         <div className='object-fit bg-no-repeat overflow-hidden w-full lg:w-full lg:h-fit'>
-          <Image
+          <img
             src='/overview-img.jpg'
-            alt='overview main image'
-            width={980}
+            alt='overview first image'
+            width='100%'
             height={300}
           />
         </div>
@@ -67,10 +67,10 @@ export default function overview() {
       <section className='flex flex-col-reverse md:flex-row'>
         <div className='w-full md:w-[50%]'>
           <div className='object-fill bg-no-repeat w-full'>
-            <Image
+            <img
               src='/overview-1.svg'
               alt='overview second image'
-              width={720}
+              width='100%'
               height={300}
             />
           </div>
@@ -153,7 +153,7 @@ export default function overview() {
                 transition={{ duration: 0.7 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                src='https://i.ibb.co/DrFb0B9/J6-A3314-1.png'
+                src='/img-1.png'
                 alt='container image'
                 width={720}
               />
@@ -180,14 +180,14 @@ export default function overview() {
 
             <div className='container text-left px-5 md:px-[4.5rem]'>
               <motion.img
-              initial={{
-                y: 100,
-                opacity: 0,
-              }}
-              transition={{ duration: 0.7 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-                src='https://i.ibb.co/rcBMDvN/323512-1.png'
+                initial={{
+                  y: 100,
+                  opacity: 0,
+                }}
+                transition={{ duration: 0.7 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                src='/img-2.png'
                 alt='container image'
                 width={720}
               />
@@ -221,7 +221,7 @@ export default function overview() {
                 transition={{ duration: 0.7 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                src='https://i.ibb.co/0fysScM/291787-2.png'
+                src='/img-3.png'
                 alt='container image'
                 width={720}
               />

@@ -10,7 +10,7 @@ export default function Header() {
     <header>
       {/* dekstop navbar start */}
       <nav className='hidden md:block bg-[#E0E2E0]'>
-        <div className='flex justify-between py-5 px-0 md:px-14 m-auto'>
+        <div className='flex justify-between py-5 px-0 md:px-[7rem] m-auto'>
           <Image
             src='/kogao.svg'
             alt='Kogao Logo'

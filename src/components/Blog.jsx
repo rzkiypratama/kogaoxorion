@@ -3,7 +3,7 @@ import React from "react";
 export default function Blog() {
   return (
     <div>
-      <div className='px-5 py-14 bg-main-color text-[#fff]'>
+      <div className='px-5 md:px-[7rem] py-14 bg-main-color text-[#fff]'>
         <div className='flex flex-row md:pt-0'>
           <h1 className='tracking-[10px] font-thin text-sm uppercase'>
             blog
