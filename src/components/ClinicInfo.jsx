@@ -14,7 +14,7 @@ export default function ClinicInfo() {
           <hr className='border-[#C6AD99]/90 w-[80%] sm:w-[100%] mt-2 ml-8 sm:ml-[5rem] md:ml-0 md:mr-10' />
         </div>
 
-        <p className='text-3xl py-8'>
+        <p className='text-3xl py-8 text-main-color'>
           サロンについて
         </p>
 
